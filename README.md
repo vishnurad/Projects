@@ -18,7 +18,7 @@ A teensy 3.1/3.2 microcontroller          -[https://www.pjrc.com/teensy/teensy31
 ![enter image description here](https://github.com/vishnurad/Projects/blob/master/20200713_073851.jpg)
  Adafruit SSD1306 OLED display with 128*64 pixel resolution -[https://www.adafruit.com/product/931](https://www.adafruit.com/product/931)
 
-Calculation of pull up or pull down values of resistors on I2C devices are based on the bus capacitance and rise time.
+
 Two external push buttons for triggering different available states.
 Some wires for connecting components
 Breadboard 
@@ -64,8 +64,8 @@ Modes:
 
 Serial plotter output:
 
-Sine Wave:
-[https://github.com/vishnurad/Projects/blob/master/11.PNG](https://github.com/vishnurad/Projects/blob/master/11.PNG)
+Sine Wave:![
+\[](https://github.com/vishnurad/Projects/blob/master/11.PNG)
 
 Square Wave:
 ![enter image description here](https://github.com/vishnurad/Projects/blob/master/12.PNG)
@@ -98,3 +98,18 @@ _Arduino tutorials_. (2019, October 21). Programming Electronics Academy.  [http
 _Libraries_. (n.d.). Arduino.  [https://www.arduino.cc/en/reference/libraries](https://www.arduino.cc/en/reference/libraries)
 
 _PJRC store_. (n.d.). PJRC: Electronic Projects.  [https://www.pjrc.com/store/teensy32.html](https://www.pjrc.com/store/teensy32.html)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
