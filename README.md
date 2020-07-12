@@ -16,6 +16,7 @@ Estimation of components required, schematic design, state transition design , d
 Components used are:
 
 A teensy 3.1/3.2 microcontroller          -[https://www.pjrc.com/teensy/teensy31.html](https://www.pjrc.com/teensy/teensy31.html)
+
 ![enter image description here](https://github.com/vishnurad/Projects/blob/master/20200713_073851.jpg)
 
  Adafruit SSD1306 OLED display with 128*64 pixel resolution -[https://www.adafruit.com/product/931](https://www.adafruit.com/product/931)
@@ -39,13 +40,16 @@ respectively.
 
 ![enter image description here](https://github.com/vishnurad/Projects/blob/master/20200713_073851.jpg)
 
+
 Breadboard circuit:
 
 ![enter image description here](https://github.com/vishnurad/Projects/blob/master/20200713_035716.jpg)
 
+
 State Model Design:
 
 ![enter image description here](https://github.com/vishnurad/Projects/blob/master/20200713_035847.jpg)
+
 
 State Model description:
 
@@ -87,12 +91,13 @@ Modes:
 
 ![enter image description here](https://github.com/vishnurad/Projects/blob/master/20200713_035847.jpg)
 
+
 Serial plotter output:
 
 
 Sine Wave:
 
-(https://github.com/vishnurad/Projects/blob/master/11.PNG)
+![enter image description here](https://github.com/vishnurad/Projects/blob/master/11.PNG)
 
 Square Wave:
 ![enter image description here](https://github.com/vishnurad/Projects/blob/master/12.PNG)
