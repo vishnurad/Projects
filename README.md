@@ -14,58 +14,85 @@ Estimation of components required, schematic design, state transition design , d
 **Estimation of components**:
 
 Components used are:
+
 A teensy 3.1/3.2 microcontroller          -[https://www.pjrc.com/teensy/teensy31.html](https://www.pjrc.com/teensy/teensy31.html)
 ![enter image description here](https://github.com/vishnurad/Projects/blob/master/20200713_073851.jpg)
+
  Adafruit SSD1306 OLED display with 128*64 pixel resolution -[https://www.adafruit.com/product/931](https://www.adafruit.com/product/931)
 
 
 Two external push buttons for triggering different available states.
+
 Some wires for connecting components
+
 Breadboard 
+
 A linear potentiometer-10 Kilo Ohm for varying the function generator states output
 
+
 **Design of circuit**:
+
 ![enter image description here](https://github.com/vishnurad/Projects/blob/master/Assignment%202%20schem.png)
 
 Adafruit OLED display pins SDA and SCL are connected to A4(SDA0) and A5(SCL0)
 respectively.
+
 ![enter image description here](https://github.com/vishnurad/Projects/blob/master/20200713_073851.jpg)
 
 Breadboard circuit:
+
 ![enter image description here](https://github.com/vishnurad/Projects/blob/master/20200713_035716.jpg)
 
 State Model Design:
+
 ![enter image description here](https://github.com/vishnurad/Projects/blob/master/20200713_035847.jpg)
 
 State Model description:
 
 Available States:
-Welcome menu, Oscilloscope,
-Function generator- with Sine Wave
-                                  - with Triangular Wave
-                                  - with Square Wave
+
+Welcome menu,
+
+Oscilloscope,
+
+Function generator
+- with Sine Wave
+
+- with Triangular Wave
+
+- with Square Wave
+
 Logic Analyse
+
 GO back
 
 
 Events created:
+
 Mode press count
+
 Serial commands (s_command) 1, 2, 3, 4, 5, 6, & 8.
+
 Reset
 
 
 **Deployment**
+
 Visual Studio Code IDE was used to deploy the code into the microcontroller.
 
 
 **Verification of Output**
+
 Modes:
+
 ![enter image description here](https://github.com/vishnurad/Projects/blob/master/20200713_035847.jpg)
 
 Serial plotter output:
 
-Sine Wave:![
-\[](https://github.com/vishnurad/Projects/blob/master/11.PNG)
+
+Sine Wave:
+
+(https://github.com/vishnurad/Projects/blob/master/11.PNG)
 
 Square Wave:
 ![enter image description here](https://github.com/vishnurad/Projects/blob/master/12.PNG)
